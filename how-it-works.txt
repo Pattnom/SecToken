@@ -1,0 +1,6 @@
+###### How it works:
+# provisions tokens
+# Set a token price in wei
+# assign an admin
+# buy tokens
+# end token sale by the admin
