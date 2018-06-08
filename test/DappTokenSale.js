@@ -81,9 +81,9 @@ contract('DappTokenSale', function(accounts) {
 		}).then(function(balance){
 			assert.equal(balance.toNumber(), 999990, 'returns all unsold dapp tokens to admin');
 			// Check that token price was reset when selfdestruct was called
-			/*return tokenSaleInstance.tokenPrice();
+			return tokenSaleInstance.tokenPrice();
 		}).then(function(price){
-			assert.equal(price.toNumber(), 0, 'token price was reset');*/
+			assert.equal(price.toNumber(), 0, 'token price was reset');
 		});
 	});
 
